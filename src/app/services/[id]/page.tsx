@@ -4,7 +4,7 @@ import QualityLegalSection from "../../components/QualityLegal";
 import TestimonialsSection from "../../components/TestimonialsSection";
 import Image from "next/image";
 import { services, servicesP } from "../_components/type";
-import React, { useRef, useState } from "react";
+import React from "react";
 
 
 const processSteps = [
