@@ -70,22 +70,7 @@ const lawyers = [
   },
 ];
 
-const cases = [
-  {
-    title: "Case of Willy Accused Corruption of Money at Gony Bank",
-    description: "Corruption Allegation: R v. Willy (2020) - Successfully defended a client against corruption charges, resulting in a full acquittal and restoration of reputation.",
-    imageSrc: "/Assets/image1.png",
-    buttonLabel: "See detail",
-    buttonHref: "#"
-  },
-  {
-    title: "Case of Willy Accused Corruption of Money at Gony Bank",
-    description: "Financial Crime Defense: R v. Willy (2020) - Our legal team uncovered critical evidence that led to the dismissal of all charges in a high-profile financial crime case.",
-    imageSrc: "/Assets/image32.png",
-    buttonLabel: "See detail",
-    buttonHref: "#"
-  },
-];
+
 
 export default function LawyerDetailPage() {
   const params = useParams();

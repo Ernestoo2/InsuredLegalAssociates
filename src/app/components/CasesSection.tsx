@@ -9,7 +9,7 @@ export type Case = {
   buttonHref: string;
 };
 
-const cases: Case[] = [
+export const cases: Case[] = [
   {
     title: "The Case of William Accused Corruption of Money at Gony Bank",
     description: "Corruption Allegation: R v. William (2020) - Successfully defended a client against corruption charges, resulting in a full acquittal and restoration of reputation.",
@@ -25,6 +25,7 @@ const cases: Case[] = [
     buttonHref: "/cases"
   },
 ];
+
 
 export default function CasesSection() {
   return (

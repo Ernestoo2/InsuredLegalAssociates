@@ -4,7 +4,7 @@ import QualityLegalSection from "../../components/QualityLegal";
 import TestimonialsSection from "../../components/TestimonialsSection";
 import Image from "next/image";
 import { services, servicesP } from "../_components/type";
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useState } from "react";
 
 
 const processSteps = [
@@ -61,10 +61,6 @@ export default function ServiceDetailPage({ params }: { params: Promise<{ id: st
     const { id } = React.use(params);
     const Allservices = [...services, ...servicesP]
     const service = Allservices.find((s) => s.id === id);
-    const waveRef = useRef<HTMLDivElement>(null);
-    const [positions, setPositions] = useState<{ x: number, y: number }[]>([]);
-
-    // No sine wave needed for zig-zag layout
 
     if (!service) {
         return <div>Service not found</div>;
@@ -127,7 +123,7 @@ export default function ServiceDetailPage({ params }: { params: Promise<{ id: st
                     </p>
                 </div>
                 <div className="w-full max-w-5xl mx-auto grid grid-cols-2 grid-rows-2 gap-12 py-8">
-                    {processSteps.map((step, idx) => (
+                    {processSteps.map((step) => (
                         <div
                             key={step.label}
                             className="flex flex-col items-center justify-center"

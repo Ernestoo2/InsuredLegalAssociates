@@ -4,7 +4,6 @@ import PartnershipSection from "../components/PartnershipSection";
 import QualityLegalSection from "../components/QualityLegal";
 import Image from "next/image";
 import TestimonialsSection from "../components/TestimonialsSection";
-import ExperienceSection from "../components/ExperienceSection";
 import VisionMissionSection from "./_components/VisionMissionSection";
 import SuccessStorySection from "./_components/SuccessStorySection";
 

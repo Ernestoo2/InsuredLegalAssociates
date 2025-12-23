@@ -1,6 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import PageHero from "./components/PageHero";
 import HeroSection from "./components/HeroSection";
 import PartnershipSection from "./components/PartnershipSection";
 import AboutSection from "./components/Aboutsection";

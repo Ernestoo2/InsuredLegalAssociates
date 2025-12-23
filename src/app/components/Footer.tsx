@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaBalanceScale, FaGavel, FaUniversity, FaEnvelope, FaPhone, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
-import { services, servicesP } from "../services/_components/type";
+import { services } from "../services/_components/type";
 
 // Update the type to allow About Us to have a description and social links
 export type FooterSection = {

@@ -61,7 +61,7 @@ export default function LawyerPage() {
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
-          {lawyers.map((lawyer, idx) => (
+          {lawyers.map((lawyer) => (
             <Link key={lawyer.id} href={`/lawyer/${lawyer.id}`} className="flex flex-col items-center rounded-lg overflow-hidden p-6 gap-4 bg-[#F6F6F2]/20 hover:shadow-lg transition">
               <div className="relative w-40 h-40 mb-2 overflow-hidden rounded-full">
                 <Image
